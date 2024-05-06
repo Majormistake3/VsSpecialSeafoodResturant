@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>V's Special Seafood Restaurant</title>
+
+  <style>
+
+    /* CSS style for website */ 
+
+    body {
+      font-family: cursive;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #0077be;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #00a8e8;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav a {
+      color: #000;
+      text-decoration: none;
+      margin: 0 20px;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .menu-item {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .menu-item img {
+      width: 200px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to V's Special Seafood Restaurant</h1>
+
+  </header>
+
+
+  <nav>
+
+    <a href="#" onclick="showHome()">Home</a>
+
+    <a href="#" onclick="showMenu()">Menu</a>
+
+    <a href="#" onclick="showAbout()">About Us</a>
+
+    <a href="#" onclick="showContact()">Contact</a>
+
+  </nav>
+
+
+  <main>
+
+    <div id="home" style="display: none;">
+      <h2>Welcome to V's Special Seafood Restaurant</h2>
+      <p>Welcome to V's special seafood restaurant, where the ocean's bounty meets culinary excellence. Nestled in the heart of Nueva Ecija, our seafood restaurant is a haven for seafood enthusiasts seeking a truly unforgettable dining experience. Step into our elegant and inviting space, where the soothing ambiance sets the stage for a feast of flavors that will transport you to coastal paradise.
+ 
+At V's special seafood restaurant, we believe in the power of fresh, sustainable ingredients. Our passionate chefs work hand in hand with local fishermen to source the finest catches of the day, ensuring that every dish showcases the natural beauty and delicate nuances of the sea. From succulent Alaskan king crab legs and buttery Maine lobster to delicate Pacific Northwest oysters and tender Gulf shrimp, our menu is a celebration of the ocean's treasures.
+ 
+But it's not just about the ingredients; it's about the artistry that goes into each creation. Our culinary team combines traditional techniques with innovative flair, presenting dishes that are as visually stunning as they are delectable. Whether you're savoring our signature seafood paella, indulging in our mouthwatering seafood pasta, or delighting in our perfectly grilled fish, each bite is a symphony of flavors that will leave you craving for more.
+ 
+Complementing our exceptional cuisine is an extensive wine and cocktail selection, carefully curated to enhance your dining experience. Our knowledgeable sommeliers are always on hand to guide you through the perfect pairing, ensuring that every sip elevates your meal to new heights.
+ 
+At V's special seafood restaurant, we pride ourselves on providing impeccable service, creating an atmosphere where every guest feels like a cherished member of our seafood-loving family. Whether you're celebrating a special occasion, enjoying a romantic dinner for two, or simply gathering with friends, our warm and attentive staff will ensure that your evening is nothing short of extraordinary.
+ 
+So come join us at V's special seafood restaurant, where the ocean's wonders come alive on your plate. Indulge in the freshest seafood, savor the artistry of our culinary creations, and immerse yourself in a dining experience that will leave you with memories to savor long after the last bite.</p>
+    </div>
+
+    <div id="menu" style="display: none;">
+      <h2>Our Menu</h2>
+      <p>Check out our delicious seafood dishes:</p>
+      <ul>
+        <li class="menu-item">
+          <img src="https://preview.redd.it/the-perfect-grilled-salmon-recipe-how-to-store-it-tips-for-v0-bvbpqda3bzza1.jpg?width=612&format=pjpg&auto=webp&s=2568d3508a6d591c3a6884856cd79dd75a7cec4b" alt="grilled salmon">
+          <div>
+            <h3>Grilled Salmon</h3>
+            <p>Savor the perfection of grilled salmon - a mouthwatering journey of tender, flaky flesh with a delightful smoky char. Indulge in the natural flavors of the ocean, enhanced by the grill's touch. Treat yourself to a culinary experience that combines simplicity, elegance, and health benefits. Elevate your taste buds with the irresistible allure of grilled salmon.</p>
+        </div>
+    </li>
+    <li class="menu-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_gYD73TDelyooNR6WACKwCr74i3w6vQGVOg&usqp=CAU" alt="shrimp Scampi">
+      <h3>Shrimp Scampi</h3> <p>Experience the irresistible allure of shrimp scampi - succulent shrimp bathed in a garlic-infused butter sauce with a hint of tangy lemon and fresh herbs. This classic Italian dish is a symphony of flavors that will leave you longing for more. Indulge in the perfect balance of richness and brightness, and let each bite transport you to a realm of pure delight. Treat yourself to the exquisite pleasure of shrimp scampi and be captivated by its irresistible charm.</p>
+    </li>
+    <li class="menu-item"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrUYT8mhkldpiiisqadIpUyVwEayB5_-6P2A&usqp=CAU" alt="lobster bisque">
+      <h3>Lobster Bisque</h3> <p>Experience the luxurious delight of lobster bisque - a rich and creamy soup infused with succulent lobster meat, herbs, and spices. Indulge in the perfect balance of flavors, where each spoonful transports you to a realm of pure decadence. Treat yourself to the epitome of elegance and sophistication with lobster bisque, and elevate your dining experience to new heights.</p>
+    </li>
+    <li class="menu-item"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEkWR0q0HYJiGq3VNIiz0PkRb6wLTTlKq1nw&usqp=CAU" alt="crab cakes">
+      <h3>Crab Cakes</h3> <p>Indulge in the irresistible allure of crab cakes - golden-brown patties bursting with succulent crab meat and a savory blend of herbs and spices. Experience a culinary journey to coastal bliss with each bite. Treat yourself to the best that the ocean has to offer and savor the flavors of this timeless favorite. Elevate your dining experience with the irresistible allure of crab cakes.</p>
+    </li>
+    <li class="menu-item"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCmtSpYcUrmTQY4icYxlw9LXOTaGUZkvzGxA&usqp=CAU" alt="fish tacos">
+      <h3>Fish Tacos</h3> <p>Experience the vibrant delight of fish tacos - tender, seasoned fish nestled in a warm tortilla, topped with fresh ingredients that create a burst of flavors. Each bite is a harmony of textures and tastes that will leave you craving for more. Treat yourself to the irresistible allure of fish tacos and embark on a culinary journey that celebrates the best of coastal cuisine.</p>
+    </li>
+  </ul>
+</div>
+
+<div id="about" style="display: none;">
+  <h2>About Us</h2>
+  <p>We are a seafood restaurant dedicated to serving fresh and flavorful dishes. Our experienced chefs prepare each meal with care, ensuring a memorable dining experience for our customers.</p>
+</div>
+
+<div id="contact" style="display: none;">
+  <h2>Contact Us</h2>
+  <p>For reservations or inquiries, please fill out the form below:</p>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</main>
+
+
+<footer>
+
+<p>&copy; 2024 Seafood Restaurant. All rights reserved.</p>
+
+</footer>
+
+<script>
+function showHome() {
+  document.getElementById("home").style.display = "block";
+  document.getElementById("menu").style.display = "none";
+  document.getElementById("about").style.display = "none";
+  document.getElementById("contact").style.display = "none";
+}
+
+function showMenu() {
+  document.getElementById("home").style.display = "none";
+  document.getElementById("menu").style.display = "block";
+  document.getElementById("about").style.display = "none";
+  document.getElementById("contact").style.display = "none";
+}
+
+function showAbout() {
+  document.getElementById("home").style.display = "none";
+  document.getElementById("menu").style.display = "none";
+  document.getElementById("about").style.display = "block";
+  document.getElementById("contact").style.display = "none";
+}
+
+function showContact() {
+  document.getElementById("home").style.display = "none";
+  document.getElementById("menu").style.display = "none";
+  document.getElementById("about").style.display = "none";
+  document.getElementById("contact").style.display = "block";
+}
+</script>
+
+</body>
+
+</html>
